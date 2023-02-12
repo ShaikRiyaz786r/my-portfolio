@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textStyle="bold">
+    </TextView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:src="@drawable/riyaz"
+        android:layout_gravity="center"
+        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S RIYAZ"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/red">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:textSize="18dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iam a dedicated person who likes to code and make apps"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKILLS"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:textSize="14dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PYTHON | JAVA | KOTLIN | ANDROID"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_marginBottom="12dp">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:textAlignment="center">
+        <ImageView
+            android:id="@+id/face"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/facebook"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/git"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/github"
+            android:layout_margin="10dp">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/link"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/linkedin"
+            android:layout_margin="10dp">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/snap"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/snapchat"
+            android:layout_margin="10dp">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/instagram"
+            android:layout_margin="10dp">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/twit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/twitter"
+            android:layout_margin="10dp">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/ha"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/hackathon"
+            android:layout_margin="10dp">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/yt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/youtube"
+            android:layout_margin="10dp">
+
+        </ImageView>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more Details"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp">
+
+    </Button>
+</LinearLayout>
